@@ -18,7 +18,7 @@ puts "----------"
 
 # Let's tell Active Record that these two tables are in fact related via the store_id column.
 # 
-# Add the following code directly inside the Store model (class): has_many :employees
+# Add the following code directly inside the Store model (class): has_many :employees 
 
 # Add the following code directly inside the Employee model (class): belongs_to :store
 

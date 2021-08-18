@@ -32,9 +32,9 @@ puts "----------"
 # Create them through the @store# instance variables that you defined in previous exercises. 
 # Create a bunch under @store1 (Burnaby) and @store2 (Richmond). Eg: @store1.employees.create(...).
 
-@store1.employees.create(first_name: "Stephanie", last_name: "Meyer", hourly_rate: 10)
+@store1.employees.create(first_name: "Stephanie", last_name: "Meyer", hourly_rate: 50)
 @store1.employees.create(first_name: "George", last_name: "Orwell", hourly_rate: 50)
 
 @store2.employees.create(first_name: "Jane", last_name: "Doe", hourly_rate: 100)
-@store2.employees.create(first_name: "Aldous", last_name: "Huxley", hourly_rate: 40)
-@store2.employees.create(first_name: "John", last_name: "Smith", hourly_rate: 20)
+@store2.employees.create(first_name: "Aldous", last_name: "Huxley", hourly_rate: 50)
+@store2.employees.create(first_name: "John", last_name: "Smith", hourly_rate: 60)

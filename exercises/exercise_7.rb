@@ -26,11 +26,12 @@ puts "ENTER A NAME"
 @name = gets.chomp
 
 # Attempt to create a store with the inputted name but leave out the other fields (annual_revenue, mens_apparel, and womens_apparel)
-Store.create(
+wrong_store = Store.create(
   name: @name,
   # annual_revenue: , 
   # mens_apparel: , 
   # womens_apparel: 
 )
-
+puts wrong_store.valid?
 # Display the error messages provided back from ActiveRecord to the user (one on each line) after you attempt to save/create the record
+puts wrong_store.errors.full_messages
